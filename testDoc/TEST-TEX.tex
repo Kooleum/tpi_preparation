@@ -1,0 +1,180 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[francais]{babel} % Typographie
+\usepackage[T1]{fontenc}     % Saisie en
+\usepackage[utf8]{inputenc} % français
+\usepackage{lmodern}
+
+%% Réglages généraux
+\usepackage[left=2.5cm, right=2cm, top=1.5cm, bottom=1.5cm]{geometry} % taille de la feuille
+\usepackage{fancyhdr} % Titre courant
+\usepackage{lastpage} % pour avoir \pageref{LastPage} : le nombre total de pages du doc
+\usepackage{hyperref}
+\usepackage{blindtext}
+\usepackage{graphicx}
+
+%infos sur le document : auteur, titre, version (utilisées en page de garde, pied de page, filigrane...)
+\newcommand{\docauthor}{Alexandre Benzonana}
+\newcommand{\doctitle}{\jobname{}.tex}
+%----------------------------------------------------------
+
+% EntÃªte et pied de page.
+\pagestyle{fancy}
+\fancyfoot[CO,CE]{\footnotesize\thepage~/~\pageref{LastPage}}
+\fancyfoot[RO,RE]{\scriptsize\emph{\docauthor{}}}
+\fancyfoot[LO,LE]{\scriptsize\emph{\doctitle{}}}
+\fancyhead[LO,CO,RO]{}
+
+\include{./inc_lst_html5_css_php}
+
+% le document commence réellement ici
+\begin{document}
+	
+	\title{TPI 2019 - ? en php }
+	\author{Alexandre Benzonana \\ IFA-P3B \\ école d'informatique (CFPT-I)}
+	\date{4 mai 2020}
+	\maketitle	
+		
+\tableofcontents
+\newcommand{\mylstinputlisting}[1]{\lstinputlisting[caption={\texttt{#1}}]{#1}}
+	
+\chapter{ARL}
+	\section{view}
+		\subsubsection{addUserToLesson.php}
+			\mylstinputlisting{./web/view/addUserToLesson.php}
+\newpage
+		\subsubsection{admin.php}
+			\mylstinputlisting{./web/view/admin.php}
+\newpage
+		\subsubsection{calendar.php}
+			\mylstinputlisting{./web/view/calendar.php}
+\newpage
+		\subsubsection{changePassword.php}
+			\mylstinputlisting{./web/view/changePassword.php}
+\newpage
+		\subsubsection{chooseComputer.php}
+			\mylstinputlisting{./web/view/chooseComputer.php}
+\newpage
+		\subsubsection{createAccount.php}
+			\mylstinputlisting{./web/view/createAccount.php}
+\newpage
+		\subsubsection{dataView.php}
+			\mylstinputlisting{./web/view/dataView.php}
+\newpage
+		\subsubsection{editHours.php}
+			\mylstinputlisting{./web/view/editHours.php}
+\newpage
+		\subsubsection{footer.html}
+			\mylstinputlisting{./web/view/footer.html}
+\newpage
+		\subsubsection{graphView.php}
+			\mylstinputlisting{./web/view/graphView.php}
+\newpage
+		\subsubsection{index.php}
+			\mylstinputlisting{./web/view/index.php}
+\newpage
+		\subsubsection{interAbsCl.php}
+			\mylstinputlisting{./web/view/interAbsCl.php}
+\newpage
+		\subsubsection{interAbsSt.php}
+			\mylstinputlisting{./web/view/interAbsSt.php}
+\newpage
+		\subsubsection{login.php}
+			\mylstinputlisting{./web/view/login.php}
+\newpage
+		\subsubsection{myAccount.php}
+			\mylstinputlisting{./web/view/myAccount.php}
+\newpage
+		\subsubsection{nav.php}
+			\mylstinputlisting{./web/view/nav.php}
+\newpage
+		\subsubsection{schedule.php}
+			\mylstinputlisting{./web/view/schedule.php}
+\newpage
+		\subsubsection{temperaturesDisplay.php}
+			\mylstinputlisting{./web/view/temperaturesDisplay.php}
+\newpage
+		\subsubsection{tempGlobalView.php}
+			\mylstinputlisting{./web/view/tempGlobalView.php}
+\newpage
+	\section{model}
+\newpage
+		\subsubsection{addData.php}
+			\mylstinputlisting{./web/model/addData.php}
+\newpage
+		\subsubsection{addUserToLesson.php}
+			\mylstinputlisting{./web/model/addUserToLesson.php}
+\newpage
+		\subsubsection{admin.php}
+			\mylstinputlisting{./web/model/admin.php}
+\newpage
+		\subsubsection{calendar.php}
+			\mylstinputlisting{./web/model/calendar.php}
+\newpage
+		\subsubsection{changePassword.php}
+			\mylstinputlisting{./web/model/changePassword.php}
+\newpage
+		\subsubsection{changeRole.php}
+			\mylstinputlisting{./web/model/changeRole.php}
+\newpage
+		\subsubsection{chooseComputer.php}
+			\mylstinputlisting{./web/model/chooseComputer.php}
+\newpage
+		\subsubsection{crud.php}
+			\mylstinputlisting{./web/model/crud.php}
+\newpage
+		\subsubsection{dataBase.php}
+			\mylstinputlisting{./web/model/dataBase.php}
+\newpage
+		\subsubsection{dataView.php}
+			\mylstinputlisting{./web/model/dataView.php}
+\newpage
+		\subsubsection{downloadFile.php}
+			\mylstinputlisting{./web/model/downloadFile.php}
+\newpage
+		\subsubsection{findUserComputer.php}
+			\mylstinputlisting{./web/model/findUserComputer.php}
+\newpage
+		\subsubsection{functions.php}
+			\mylstinputlisting{./web/model/functions.php}
+\newpage
+		\subsubsection{getTag.php}
+			\mylstinputlisting{./web/model/getTag.php}
+\newpage
+		\subsubsection{graphOptionFormHandling.php}
+			\mylstinputlisting{./web/model/graphOptionFormHandling.php}
+\newpage
+		\subsubsection{interAbsCl.php}
+			\mylstinputlisting{./web/model/interAbsCl.php}
+\newpage
+		\subsubsection{interAbsSt.php}
+			\mylstinputlisting{./web/model/interAbsSt.php}
+\newpage
+		\subsubsection{login.php}
+			\mylstinputlisting{./web/model/login.php}
+\newpage
+		\subsubsection{logout.php}
+			\mylstinputlisting{./web/model/logout.php}
+\newpage
+		\subsubsection{myAccount.php}
+			\mylstinputlisting{./web/model/myAccount.php}
+\newpage
+		\subsubsection{removeUser.php}
+			\mylstinputlisting{./web/model/removeUser.php}
+\newpage
+		\subsubsection{schedule.php}
+			\mylstinputlisting{./web/model/schedule.php}
+\newpage
+		\subsection{classes}
+			\subsubsection{card.php}
+				\mylstinputlisting{./web/model/classes/card.php}
+\newpage
+			\subsubsection{GetterSetter.php}
+				\mylstinputlisting{./web/model/classes/GetterSetter.php}
+\newpage
+			\subsubsection{Image.php}
+				\mylstinputlisting{./web/model/classes/Image.php}
+\newpage
+	
+	
+\end{document}
