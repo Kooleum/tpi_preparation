@@ -1,0 +1,674 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.7)  14 MAY 2020 10:53
+entering extended mode
+**./TEST-TEX.tex
+(TEST-TEX.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-04-06>
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base
+\report.cls"
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base
+\size12.clo"
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ba
+bel\babel.sty"
+Package: babel 2020/03/22 3.42 The Babel package
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ba
+bel\switch.def"
+File: switch.def 2020/03/22 3.42 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arab
+i\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ba
+bel-french\french.ldf"
+Language: french 2020/01/30 v3.5g French support from the babel system
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ba
+bel\babel.def"
+File: babel.def 2020/03/22 3.42 Babel common definitions
+\babel@savecnt=\count176
+\U@D=\dimen135
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ba
+bel\txtbabel.def")
+\bbl@readstream=\read2
+\bbl@dirlevel=\count177
+)
+Package babel Info: \l@acadian = using hyphenrules for french
+(babel)             (\language22) on input line 91.
+Package babel Info: \l@canadien = using hyphenrules for french
+(babel)             (\language22) on input line 92.
+\FB@nonchar=\count178
+Package babel Info: Making : an active character on input line 419.
+Package babel Info: Making ; an active character on input line 420.
+Package babel Info: Making ! an active character on input line 421.
+Package babel Info: Making ? an active character on input line 422.
+\FBguill@level=\count179
+\FBold@everypar=\toks15
+\FB@Mht=\dimen136
+\mc@charclass=\count180
+\mc@charfam=\count181
+\mc@charslot=\count182
+\std@mcc=\count183
+\dec@mcc=\count184
+\c@FBcaption@count=\count185
+\listindentFB=\dimen137
+\descindentFB=\dimen138
+\labelindentFB=\dimen139
+\labelwidthFB=\dimen140
+\leftmarginFB=\dimen141
+\parindentFFN=\dimen142
+\FBfnindent=\dimen143
+))
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/carl
+isle\scalefnt.sty")
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grap
+hics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base
+\fontenc.sty"
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base
+\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\l
+modern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geom
+etry\geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/if
+tex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/if
+tex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count186
+\Gm@cntv=\count187
+\c@Gm@tempcnt=\count188
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
+\Gm@dimlist=\toks19
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geom
+etry\geometry.cfg"))
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fanc
+yhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/last
+page\lastpage.sty"
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hype
+rref\hyperref.sty"
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/lt
+xcmds\ltxcmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdft
+excmds\pdftexcmds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/in
+fwarerr\infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kv
+setkeys\kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kv
+definekeys\kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pd
+fescape\pdfescape.sty"
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyco
+lor\hycolor.sty"
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letl
+txmacro\letltxmacro.sty"
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxh
+ook\auxhook.sty"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvop
+tions\kvoptions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen152
+\Hy@linkcounter=\count189
+\Hy@pagecounter=\count190
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hype
+rref\pd1enc.def"
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/in
+tcalc\intcalc.sty"
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/et
+excmds\etexcmds.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count191
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count192
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\
+url.sty"
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen153
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bi
+tset\bitset.sty"
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bi
+gintcalc\bigintcalc.sty"
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count193
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/at
+begshi\atbegshi.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count194
+\c@Item=\count195
+\c@Hfootnote=\count196
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hype
+rref\hpdftex.def"
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atve
+ryend\atveryend.sty"
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count197
+\c@bookmark@seq@number=\count198
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/reru
+nfilecheck\rerunfilecheck.sty"
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/un
+iquecounter\uniquecounter.sty"
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip58
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/blin
+dtext\blindtext.sty"
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tool
+s\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count199
+\c@Blindtext=\count266
+\c@blind@countparstart=\count267
+\blind@countxx=\count268
+\blindtext@numBlindtext=\count269
+\blind@countyy=\count270
+\c@blindlist=\count271
+\c@blindlistlevel=\count272
+\c@blindlist@level=\count273
+\blind@listitem=\count274
+\c@blind@listcount=\count275
+\c@blind@levelcount=\count276
+\blind@mathformula=\count277
+\blind@Mathformula=\count278
+\c@blind@randomcount=\count279
+\c@blind@randommax=\count280
+\c@blind@pangramcount=\count281
+\c@blind@pangrammax=\count282
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grap
+hics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grap
+hics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grap
+hics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grap
+hics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grap
+hics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen156
+\Gin@req@width=\dimen157
+)
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 23.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 24.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 25.
+
+\@input{./inc_lst_html5_css_php.aux}
+\openout2 = `./inc_lst_html5_css_php.aux'.
+
+(inc_lst_html5_css_php.tex
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcol
+or\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grap
+hics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/list
+ings\listings.sty"
+\lst@mode=\count283
+\lst@gtempboxa=\box45
+\lst@token=\toks20
+\lst@length=\count284
+\lst@currlwidth=\dimen158
+\lst@column=\count285
+\lst@pos=\count286
+\lst@lostspace=\dimen159
+\lst@width=\dimen160
+\lst@newlines=\count287
+\lst@lineno=\count288
+\lst@maxwidth=\dimen161
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/list
+ings\lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count289
+\lst@skipnumbers=\count290
+\lst@framebox=\box46
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/list
+ings\listings.cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/accs
+upp\accsupp.sty"
+Package: accsupp 2019/12/05 v0.6 Accessibility support by marked content (HO)
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/accs
+upp\accsupp-pdftex.def"
+File: accsupp-pdftex.def 2019/12/05 v0.6 accsupp driver for pdfTeX (HO)
+))
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/upqu
+ote\upquote.sty"
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base
+\textcomp.sty"
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/list
+ings\lstlang1.sty"
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/list
+ings\lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+))
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3ba
+ckend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count291
+\l__pdf_internal_box=\box47
+)
+No file TEST-TEX.aux.
+\openout1 = `TEST-TEX.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 31
+.
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t
+1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Info: Redefining \degres on input line 31.
+LaTeX Info: Redefining \dots on input line 31.
+LaTeX Info: Redefining \up on input line 31.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=469.47049pt
+* \textheight=759.6886pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-66.59087pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 31.
+\AtBeginShipoutBox=\box48
+Package hyperref Info: Link coloring OFF on input line 31.
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hype
+rref\nameref.sty"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refc
+ount\refcount.sty"
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ge
+ttitlestring\gettitlestring.sty"
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count292
+)
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
+\@outlinefile=\write3
+\openout3 = `TEST-TEX.out'.
+
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/context/ba
+se/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count293
+\scratchdimen=\dimen162
+\scratchbox=\box49
+\nofMPsegments=\count294
+\nofMParguments=\count295
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count296
+\MPscratchDim=\dimen163
+\MPnumerator=\count297
+\makeMPintoPDFobject=\count298
+\everyMPtoPDFconversion=\toks22
+)
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epst
+opdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+\c@lstlisting=\count299
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
+7.
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\o
+t1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
+7.
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\o
+mllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+37.
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\o
+mslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+37.
+
+("C:\Users\Alexandre Benzonana\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\o
+mxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 37.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 37.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 37.
+
+
+! Package inputenc Error: Unicode character � (U+FFFD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 		
+       
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[1
+
+
+
+{C:/Users/Alexandre Benzonana/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+}]
+\tf@toc=\write4
+\openout4 = `TEST-TEX.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41 \chapter
+             {ARL} [1
+
+]
+Chapitre 1.
+
+! Package Listings Error: File `./web/view/addUserToLesson(.php)' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: php)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.44 ...putlisting{./web/view/addUserToLesson.php}
+                                                  
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 9580 strings out of 480930
+ 149901 string characters out of 2893194
+ 644021 words of memory out of 3000000
+ 25269 multiletter control sequences out of 15000+200000
+ 568475 words of font info for 44 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,6n,64p,1094b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
