@@ -1,20 +1,28 @@
 <?php
 session_start();
-require_once '/model/crud.php';
+require_once 'model/crud.php';
 
 $action = filter_input(INPUT_GET, "action", FILTER_SANITIZE_STRING);
 
-if(isset($_SESSION['role']))
+if (isset($_SESSION['role']))
     $role = $_SESSION['role'];
 else
-    $role="Anonymous";
+    $role = "Anonymous";
 
 $permission = [
-    "Anonymous"=>[
-        "default"=>"index",        
+    "Anonymous" => [
+        "default" => "index",
+        "addPerson" => "addPerson",
+        "addGender" => "addGender",
+        "addHobby" => "addHobby",
+        "addPersonHobby" => "addPersonHobby",
     ],
-    "Admin"=>[
-        "default"=>"index",
+    "Admin" => [
+        "default" => "index",
+        "addPerson" => "addPerson",
+        "addGender" => "addGender",
+        "addHobby" => "addHobby",
+        "addPersonHobby" => "addPersonHobby",
     ],
 ];
 
@@ -23,7 +31,6 @@ if (!array_key_exists($action, $permission[$role])) {
 }
 
 try {
-    require './controller/'.$permission[$role][$action].'.php';
+    require './controller/' . $permission[$role][$action] . '.php';
 } catch (Exception $e) {
-
 }

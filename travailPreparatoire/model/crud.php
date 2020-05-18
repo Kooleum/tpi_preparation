@@ -27,7 +27,7 @@ function getConnexion()
 //Transaction functions
 function startTransaction()
 {
-    getConnexion()->begin_transaction();
+    getConnexion()->beginTransaction();
 }
 
 function rollBackTransaction()
@@ -50,7 +50,7 @@ function commitTransaction()
 function addPerson($name, $idGender)
 {
     $connexion = getConnexion();
-    $req = $connexion->prepare("INSERT INTO persons ('name', 'idGender) VALUES (:pName, :genderId)");
+    $req = $connexion->prepare("INSERT INTO persons (`name`, `idGender`) VALUES (:pName, :genderId)");
     $req->bindParam(":pName", $name, PDO::PARAM_STR);
     $req->bindParam(":genderId", $idGender, PDO::PARAM_INT);
     return $req->execute();
@@ -77,8 +77,8 @@ function getAllPersons()
 {
     $connexion = getConnexion();
     $req = $connexion->prepare("SELECT idPerson, `name`, idGender FROM persons ");
-    $restults = $req->execute();
-    return $restults->fetchAll(PDO::FETCH_ASSOC);
+    $req->execute();
+    return $req->fetchAll(PDO::FETCH_ASSOC);
 }
 
 /**
@@ -91,8 +91,8 @@ function getPersonById($idPerson)
     $connexion = getConnexion();
     $req = $connexion->prepare("SELECT `name`, idGender FROM persons WHERE idPerson = :idP");
     $req->bindParam(":idP", $idPerson, PDO::PARAM_INT);
-    $restults = $req->execute();
-    return $restults->fetchAll(PDO::FETCH_ASSOC)[0];
+    $req->execute();
+    return $req->fetchAll(PDO::FETCH_ASSOC)[0];
 }
 
 
@@ -105,7 +105,7 @@ function getPersonById($idPerson)
 function addHobby($name)
 {
     $connexion = getConnexion();
-    $req = $connexion->prepare("INSERT INTO hobbies ('description') VALUES (:hName)");
+    $req = $connexion->prepare("INSERT INTO hobbies (`description`) VALUES (:hName)");
     $req->bindParam(":hName", $name, PDO::PARAM_STR);
     return $req->execute();
 }
@@ -131,8 +131,8 @@ function getAllHobbies()
 {
     $connexion = getConnexion();
     $req = $connexion->prepare("SELECT idHobby, `description` FROM hobbies ");
-    $restults = $req->execute();
-    return $restults->fetchAll(PDO::FETCH_ASSOC);
+    $req->execute();
+    return $req->fetchAll(PDO::FETCH_ASSOC);
 }
 
 /**
@@ -145,20 +145,20 @@ function getHobbyDescription($idhobby)
     $connexion = getConnexion();
     $req = $connexion->prepare("SELECT `description` FROM hobbies WHERE idHobby = :idH");
     $req->bindParam(":idH", $idhobby, PDO::PARAM_INT);
-    $restults = $req->execute();
-    return $restults->fetchAll(PDO::FETCH_ASSOC)[0]['description'];
+    $req->execute();
+    return $req->fetchAll(PDO::FETCH_ASSOC)[0]['description'];
 }
 
 //Genders
 /**
  * Add a gender into the genders table
- * @param string hobby name
+ * @param string gender
  * @return bool state of the query
  */
 function addGender($gender)
 {
     $connexion = getConnexion();
-    $req = $connexion->prepare("INSERT INTO genderes ('description') VALUES (:gender)");
+    $req = $connexion->prepare("INSERT INTO genders (`description`) VALUES (:gender)");
     $req->bindParam(":gender", $gender, PDO::PARAM_STR);
     return $req->execute();
 }
@@ -183,9 +183,9 @@ function removeGender($idGender)
 function getAllGenders()
 {
     $connexion = getConnexion();
-    $req = $connexion->prepare("SELECT idGender, `description` FROM genders ");
-    $restults = $req->execute();
-    return $restults->fetchAll(PDO::FETCH_ASSOC);
+    $req = $connexion->prepare("SELECT idGender, `description` FROM genders");
+    $req->execute();
+    return $req->fetchAll(PDO::FETCH_ASSOC);
 }
 
 /**
@@ -198,8 +198,8 @@ function getGenderDescription($idGender)
     $connexion = getConnexion();
     $req = $connexion->prepare("SELECT `description` FROM genders WHERE idGender = :idG");
     $req->bindParam(":idG", $idGender, PDO::PARAM_INT);
-    $restults = $req->execute();
-    return $restults->fetchAll(PDO::FETCH_ASSOC)[0]['description'];
+    $req->execute();
+    return $req->fetchAll(PDO::FETCH_ASSOC)[0]['description'];
 }
 
 //Persons Hobbies
@@ -214,7 +214,7 @@ function getGenderDescription($idGender)
 function addPersonHobby($idPerson, $idHobby)
 {
     $connexion = getConnexion();
-    $req = $connexion->prepare("INSERT INTO persons_has_hobbies ('idPerson', 'idHobby') VALUES (:idPerson, :idHobby)");
+    $req = $connexion->prepare("INSERT INTO persons_has_hobbies (`idPerson`, `idHobby`) VALUES (:idPerson, :idHobby)");
     $req->bindParam(":idPerson", $idPerson, PDO::PARAM_INT);
     $req->bindParam(":idHobby", $idHobby, PDO::PARAM_INT);
     return $req->execute();
@@ -245,8 +245,8 @@ function getAllHobbiesByPerson($idPerson)
     $connexion = getConnexion();
     $req = $connexion->prepare("SELECT idHobby FROM persons_has_hobbies WHERE idPerson = :idP");
     $req->bindParam(":idP", $idPerson, PDO::PARAM_INT);
-    $restults = $req->execute();
-    return $restults->fetchAll(PDO::FETCH_ASSOC);
+    $req->execute();
+    return $req->fetchAll(PDO::FETCH_ASSOC);
 }
 
 /**
@@ -259,6 +259,6 @@ function getAllPersonsByHobby($idHobby)
     $connexion = getConnexion();
     $req = $connexion->prepare("SELECT idPerson FROM persons_has_hobbies WHERE idHobby = :idh");
     $req->bindParam(":idH", $idHobby, PDO::PARAM_INT);
-    $restults = $req->execute();
-    return $restults->fetchAll(PDO::FETCH_ASSOC);
+    $req->execute();
+    return $req->fetchAll(PDO::FETCH_ASSOC);
 }
