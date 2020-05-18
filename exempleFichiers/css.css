@@ -1,0 +1,61 @@
+body {
+    height: 95vh;
+}
+
+
+/* Calendar */
+
+.formInput {
+    background-color: #343434 !important;
+    border-color: #717070 !important;
+    color: white !important;
+}
+
+.bg-we {
+    background-color: #2E3438;
+}
+
+.bg-out {
+    background-color: #3A4146;
+}
+
+.dateNow {
+    background-color: #DDDDDD;
+    color: black;
+}
+
+.bdbg {
+    background-color: #2e3438;
+}
+
+.calA,
+.calA:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.calBtn {
+    line-height: 2px;
+    color: inherit;
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+#calendar td {
+    width: 6vw !important;
+    height: 12vh !important;
+}
+
+
+/* Administration table */
+
+.tAdminBtn {
+    width: 200px;
+}
+
+.erreur {
+    color: red;
+    margin-bottom: 0.2rem;
+}
