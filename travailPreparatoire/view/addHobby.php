@@ -10,11 +10,12 @@
 <body class="bg-dark text-white">
     <?php require_once 'nav.php'; ?>
     <div class="container mt-2">
-    <h2>Ajouter une personne</h2>
+    <h2>Ajouter un hobby</h2>
+    <?= $error ?>
     <form action="#" method="post">
         <div class="form-group"> 
             <label for="hobby">Hobby</label>
-            <input type="hobby" name="lastname" id="hobby" class="form-control" required/>
+            <input type="text" name="hobby" id="hobby" class="form-control" required/>
         </div>
         <input type="submit" class="btn btn-primary" value="Ajouter" name="submit" />
     </form>

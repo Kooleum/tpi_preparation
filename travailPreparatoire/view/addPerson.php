@@ -11,6 +11,7 @@
     <?php require_once 'nav.php'; ?>
     <div class="container mt-2">
     <h2>Ajouter une personne</h2>
+    <?= $error ?>
     <form action="#" method="post">
         <div class="form-group"> 
             <label for="name">Nom</label>
